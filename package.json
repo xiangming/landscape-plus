@@ -1,6 +1,6 @@
 {
   "name": "hexo-site",
-  "version": "",
+  "version": "2.6.0",
   "private": true,
   "dependencies": {
     "hexo-renderer-ejs": "*",

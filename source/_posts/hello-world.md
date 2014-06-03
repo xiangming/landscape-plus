@@ -4,6 +4,47 @@ Welcome to [Hexo](http://hexo.io/)! This is your very first post. Check [documen
 
 ## Quick Start
 
+### google-code-prettify
+
+``` html
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>google-code-prettify demo</title>
+    <link rel="stylesheet" href="prettify.css">
+</head>
+<body>
+    
+    <pre>
+        <!-- html/css/js -->
+        html/css/js
+    </pre>
+
+    <script src="jquery-1.9.1.min.js"></script>
+    <script src="prettify.js"></script>
+    <script src="run-prettify.js"></script>
+</body>
+</html>
+```
+
+``` javascript
+// Search
+  var $searchWrap = $('#search-form-wrap'),
+    isSearchAnim = false,
+    searchAnimDuration = 200;
+
+  var startSearchAnim = function(){
+    isSearchAnim = true;
+  };
+
+  var stopSearchAnim = function(callback){
+    setTimeout(function(){
+      isSearchAnim = false;
+      callback && callback();
+    }, searchAnimDuration);
+  };
+```
+
 ### Create a new post
 
 ``` bash

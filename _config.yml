@@ -4,8 +4,8 @@
 
 # Site
 title: Hexo
-subtitle:
-description:
+subtitle: hexo测试环境
+description: test hexo
 author: xiangming
 email:
 language: zh-CN
@@ -86,4 +86,6 @@ exclude_generator:
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: github
+  repository: https://github.com/xiangming/hexo.git
+  branch: gh-pages
