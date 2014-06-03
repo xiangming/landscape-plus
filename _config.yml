@@ -12,8 +12,8 @@ language: zh-CN
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
-root: /
+url: http://jasonxiang.com/hexo
+root: /hexo/
 permalink: :year/:month/:day/:title/
 tag_dir: tags
 archive_dir: archives
@@ -49,9 +49,9 @@ tag_map:
 ## 2: Enable pagination
 ## 1: Disable pagination
 ## 0: Fully Disable
-archive: 2
-category: 2
-tag: 2
+archive: 1
+category: 1
+tag: 1
 
 # Server
 ## Hexo uses Connect as a server
@@ -75,7 +75,7 @@ per_page: 10
 pagination_dir: page
 
 # Disqus
-disqus_shortname:
+disqus_shortname: reqianduan
 
 # Extensions
 ## Plugins: https://github.com/tommy351/hexo/wiki/Plugins
@@ -89,3 +89,4 @@ deploy:
   type: github
   repository: https://github.com/xiangming/hexo.git
   branch: gh-pages
+  message: 
