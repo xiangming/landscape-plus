@@ -10,11 +10,11 @@
 你可以点击[这里](http://reqianduan.com/)，看看速度。
 
 ## 说明
-主题还在调整中，欢迎open issue来提意见，参与讨论。
+主题还在调整中，欢迎`open issue`来提意见，参与讨论。
 
 几个讨论点：
 
-1. 使用 **多说** 替代 **disqus**？
+1. **使用多说替代disqus**？
 
 2. 使用国内社交网络，代替Facebook，twitter等？
 
