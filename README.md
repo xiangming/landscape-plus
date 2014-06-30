@@ -1,24 +1,29 @@
 ## 修改的地方
-- 根据国情，**去掉Google的库**，改用cloudflare的cdn，速度更好。
+- 根据国情，**去掉Google的库**，改用cloudflare的cdn，打开页面不再卡住了。
 - 增加了 **语言包**，所以英语不好的同学，我懂你的。
 - 代码高亮，**采用Monokai**，熟悉SublimeText的朋友一定不陌生。
-- 主题默认包含feed和sitemap，不要你自己去安装。
-- 增加了 **友情链接** widget，可在主题的_config.yml中自行配置。
-- 去掉header里面的大图，节省带宽，页面加载更快。（大图还在，你可以很方便的恢复它。）
+- 主题默认包含feed和sitemap，不需要你手动安装了。
+- 增加了 **友情链接** widget，已默认开启，可在landscape+/_config.yml中自行配置。
+- 不使用header里面的大图，节省带宽，页面加载更快。（大图文件还在，你可以很方便的恢复它。）
 
 ## Demo
-你可以点击[这里](http://reqianduan.com/)，看看速度。
+你可以点击[这里](http://reqianduan.com/)，查看演示。
 
-## 说明
-主题还在调整中，欢迎`open issue`来提意见，参与讨论。
+## Q/A
+- **Q**：怎么提建议？
+- **A**：主题还在调整中，欢迎`open issue`来提意见，参与讨论。
+- **Q**：怎么添加友情链接？
+- **A**：可在themes/landscape+/_config.yml中自行配置。
+- **Q**：我喜欢原主题顶部的大图，如何恢复？
+- **A**：themes/landscape+/source/css/_partial/header.styl，取消第33行的注释。
+- **Q**：我是中国人，但是我喜欢英语？
+- **A**：这个其实和theme无关，配置你的hexo源文件的_config.yml，删掉`language: zh-CN`。
 
-几个讨论点：
-
-1. **使用多说替代disqus**？
-
+## TODO
+1. 使用多说替代disqus？
 2. 使用国内社交网络，代替Facebook，twitter等？
 
-下面是原主题landscape的README.md，后面会作修改，是否翻译，暂不确定。
+下面是hexo官方主题landscape的README.md，后面会作修改，是否翻译，暂不确定。
 
 ---
 
