@@ -5,3 +5,4 @@ debug.log
 node_modules/
 public/
 .deploy/
+themes/pacman/
