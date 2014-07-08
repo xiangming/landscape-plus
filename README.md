@@ -12,7 +12,7 @@
 你可以点击[这里](http://reqianduan.com/)，查看演示。
 
 ## Q/A
-- **Q**：Demo看起来很赞，我要怎么使用landscape+主题？
+- **Q**：Demo看起来很赞，我要**怎么使用landscape+主题？**
 - **A**：clone分支master后，直接使用themes下面的landscape主题（其实它就是landscape+主题，原谅我还没有为landscape+主题单独建立一个repo）。
 - **Q**：怎么提建议？
 - **A**：主题还在调整中，欢迎`open issue`来提建议，参与讨论。
