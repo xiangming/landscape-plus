@@ -1,5 +1,9 @@
 针对大陆地区对landscape主题进行优化，主题还在调整中，欢迎`open issue`来提建议，参与讨论。
 
+## 网站列表
+
+如果你的网站正在使用`landscape-plus`主题，欢迎你将网站添加到wiki的[网站列表](https://github.com/xiangming/landscape-plus/wiki)。我会不定期将[网站列表](https://github.com/xiangming/landscape-plus/wiki)里面的网站添加到`landscape-plus`的默认友情链接。
+
 ## 与Landscape不同的地方
 
 - 根据国情，**去掉Google的库**，改用cloudflare的cdn，打开页面不再卡住了。
