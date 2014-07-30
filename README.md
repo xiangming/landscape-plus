@@ -1,17 +1,18 @@
-针对大陆地区对landscape主题进行优化，主题还在调整中，欢迎[open issue](https://github.com/xiangming/landscape-plus/issues/new)来提建议，参与讨论。
+针对中国大陆地区对hexo官方主题landscape进行优化，主题还在调整中，欢迎[open issue](https://github.com/xiangming/landscape-plus/issues/new)来提建议，参与讨论。
 
 ## 网站列表
 
-如果你的网站正在使用`landscape-plus`主题，欢迎你将网站添加到wiki的[网站列表](https://github.com/xiangming/landscape-plus/wiki)。我会不定期将[网站列表](https://github.com/xiangming/landscape-plus/wiki)里面的网站添加到`landscape-plus`的默认友情链接。
+如果你的网站正在使用**landscape-plus**主题，欢迎你将网站添加到wiki的[网站列表](https://github.com/xiangming/landscape-plus/wiki)。我会不定期将[网站列表](https://github.com/xiangming/landscape-plus/wiki)里面的网站添加到**landscape-plus**的默认友情链接。
 
 ## 与Landscape不同的地方
 
 - 根据国情，**去掉Google的库**，改用cloudflare的cdn，打开页面不再卡住了。
 - 增加了 **语言包**，所以英语不好的同学，我懂你的。
 - 代码高亮，**采用Monokai**，熟悉SublimeText的朋友一定不陌生。
-- 主题默认包含feed和sitemap，不需要你手动安装了。
+- 主题默认包含 **feed和sitemap**，不需要你手动安装了。
 - 增加了 **友情链接** widget，已默认开启，可在landscape-plus/_config.yml中自行配置。
 - 不使用header里面的大图，节省带宽，页面加载更快。（大图文件还在，你可以很方便的恢复它。）
+- 修改了原主题的**配色**和部分markdown样式（blockquote/code...）
 
 ## 演示
 
