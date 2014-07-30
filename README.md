@@ -1,4 +1,4 @@
-针对大陆地区对landscape主题进行优化，主题还在调整中，欢迎`open issue`来提建议，参与讨论。
+针对大陆地区对landscape主题进行优化，主题还在调整中，欢迎[open issue](https://github.com/xiangming/landscape-plus/issues/new)来提建议，参与讨论。
 
 ## 网站列表
 
@@ -49,38 +49,36 @@ git pull
 - **A**：这个其实和theme无关，配置你的hexo源文件的_config.yml，删掉`language: zh-CN`。
 
 ## TODO
-1. 使用多说替代disqus？
+1. <del>使用多说替代disqus？</del>
 2. 使用国内社交网络，代替Facebook，twitter等？
-3. 去掉边栏，改为单栏？
-
-下面是hexo官方主题landscape的README.md，供参考。
+3. <del>去掉边栏，改为单栏？</del>
 
 ---
 
-# Landscape
+# Landscape+
 
-A brand new default theme for [Hexo].
+Landscape+ is modified from the default theme of Hexo 2.4+ for the mainland of China.
 
-- [Preview](http://hexo.io/hexo-theme-landscape/)
+- [Preview](http://reqianduan.com/)
 
 ## Installation
 
 ### Install
 
 ``` bash
-$ git clone https://github.com/tommy351/hexo-theme-landscape.git themes/landscape
+$ git clone https://github.com/xiangming/landscape-plus.git themes/landscape-plus
 ```
 
-**Landscape requires Hexo 2.4 and above.**
+**Landscape+ requires Hexo 2.4 and above.**
 
 ### Enable
 
-Modify `theme` setting in `_config.yml` to `landscape`.
+Modify `theme` setting in `_config.yml` to `landscape-plus`.
 
 ### Update
 
 ``` bash
-cd themes/landscape
+cd themes/landscape-plus
 git pull
 ```
 
@@ -105,6 +103,7 @@ widgets:
 - tagcloud
 - archives
 - recent_posts
+- links
 
 # Miscellaneous
 google_analytics:
@@ -128,7 +127,7 @@ google_plus:
 
 ### Fancybox
 
-Landscape uses [Fancybox] to showcase your photos. You can use Markdown syntax or fancybox tag plugin to add your photos.
+Landscape+ uses [Fancybox] to showcase your photos. You can use Markdown syntax or fancybox tag plugin to add your photos.
 
 ```
 ![img caption](img url)
@@ -140,13 +139,14 @@ Landscape uses [Fancybox] to showcase your photos. You can use Markdown syntax o
 
 You can put your sidebar in left side, right side or bottom of your site by editing `sidebar` setting.
 
-Landscape provides 5 built-in widgets:
+Landscape+ provides **6** built-in widgets:
 
 - category
 - tag
 - tagcloud
 - archives
 - recent_posts
+- links
 
 All of them are enabled by default. You can edit them in `widget` setting.
 
