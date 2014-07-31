@@ -3,6 +3,7 @@ Thumbs.db
 db.json
 debug.log
 node_modules/
+__MACOSX/
 public/
 .deploy/
 _SYNCAPP
