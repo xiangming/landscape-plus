@@ -9,7 +9,6 @@
 - 根据国情，**去掉Google的库**，改用cloudflare的cdn，打开页面不再卡住了。
 - 增加了 **语言包**，所以英语不好的同学，我懂你的。
 - 代码高亮，**采用Monokai**，熟悉SublimeText的朋友一定不陌生。
-- 主题默认包含 **feed和sitemap**，不需要你手动安装了。
 - 增加了 **友情链接** widget，已默认开启，可在landscape-plus/_config.yml中自行配置。
 - 不使用header里面的大图，节省带宽，页面加载更快。（大图文件还在，你可以很方便的恢复它。）
 - 修改了原主题的**配色**和部分markdown样式（blockquote/code...）
