@@ -47,6 +47,8 @@ git pull
 - **A**：themes/landscape-plus/source/css/_partial/header.styl，取消第33行的注释。
 - **Q**：我是中国人，但是我喜欢英语？
 - **A**：这个其实和theme无关，配置你的hexo源文件的_config.yml，删掉`language: zh-CN`。
+- **Q**：你的字体配色太闪眼睛了，我怎么换回原主题的样式？
+- **A**：请参考这条[issue](https://github.com/xiangming/landscape-plus/issues/13)自行配置。
 
 ## TODO
 1. <del>使用多说替代disqus？</del>
