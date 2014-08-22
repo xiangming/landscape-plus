@@ -11,7 +11,8 @@
 - 代码高亮，**采用Monokai**，熟悉SublimeText的朋友一定不陌生。
 - 增加了 **友情链接** widget，已默认开启，可在landscape-plus/_config.yml中自行配置。
 - 不使用header里面的大图，节省带宽，页面加载更快。（大图文件还在，你可以很方便的恢复它。）
-- 修改了原主题的**配色**和部分markdown样式（blockquote/code...）
+- 修改了原主题的 **配色** 和部分markdown样式（blockquote/code...）
+- 2014-08-22更新：集成 **多说评论系统** 。（当开启多说评论后，主题将自动忽略disqus，开启方法看下面的Q/A。）
 
 ## 演示
 
@@ -49,11 +50,11 @@ git pull
 - **A**：这个其实和theme无关，配置你的hexo源文件的_config.yml，删掉`language: zh-CN`。
 - **Q**：你的字体配色太闪眼睛了，我怎么换回原主题的样式？
 - **A**：请参考这条[issue](https://github.com/xiangming/landscape-plus/issues/13)自行配置。
+- **Q**：如果开启多说评论系统？
+- **A**：修改`landscape-plus\_config.yml`，填写你的多说id即可。（当你设置了多说id，主题将会自动启用多说评论，忽略hexo默认的disqus。）
 
 ## TODO
-1. <del>使用多说替代disqus？</del>
-2. 使用国内社交网络，代替Facebook，twitter等？
-3. <del>去掉边栏，改为单栏？</del>
+1. 使用国内社交网络，代替Facebook，twitter等？
 
 ---
 

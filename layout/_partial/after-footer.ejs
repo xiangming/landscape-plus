@@ -1,4 +1,18 @@
-<% if (config.disqus_shortname){ %>
+<% if (theme.duoshuo_shortname){ %>
+<!-- Duoshuo start -->
+<script type="text/javascript">
+var duoshuoQuery = {short_name:"<%= theme.duoshuo_shortname %>"};
+  (function() {
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';ds.async = true;
+    ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+    ds.charset = 'UTF-8';
+    (document.getElementsByTagName('head')[0] 
+     || document.getElementsByTagName('body')[0]).appendChild(ds);
+  })();
+  </script>
+<!-- Duoshuo end -->
+<% } else if (config.disqus_shortname){ %>
 <script>
   var disqus_shortname = '<%= config.disqus_shortname %>';
   <% if (page.permalink){ %>
