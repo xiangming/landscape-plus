@@ -25,7 +25,7 @@
     <footer class="article-footer">
       <a data-url="<%- post.permalink %>" data-id="<%= post._id %>" class="article-share-link"><%= __('share') %></a>
       <% if (post.comments && theme.duoshuo_shortname){ %>
-        <a href="<%- post.permalink %>#ds_thread" class="article-comment-link">Comments</a>
+        <a href="<%- post.permalink %>#ds-thread" class="article-comment-link">Comments</a>
       <% } else if (post.comments && config.disqus_shortname){ %>
         <a href="<%- post.permalink %>#disqus_thread" class="article-comment-link">Comments</a>
       <% } %>
