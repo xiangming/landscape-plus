@@ -23,12 +23,18 @@
       <% } %>
     </div>
     <footer class="article-footer">
-      <a data-url="<%- post.permalink %>" data-id="<%= post._id %>" class="article-share-link"><%= __('share') %></a>
+      <% if (theme.baidushare){ %>
+        <a data-url="<%- post.permalink %>" data-id="<%= post._id %>" class="article-share-link" data-share="baidu"><%= __('share') %></a>
+      <% } else { %>
+        <a data-url="<%- post.permalink %>" data-id="<%= post._id %>" class="article-share-link"><%= __('share') %></a>
+      <% } %>
+
       <% if (post.comments && theme.duoshuo_shortname){ %>
         <a href="<%- post.permalink %>#ds-thread" class="article-comment-link">Comments</a>
       <% } else if (post.comments && config.disqus_shortname){ %>
         <a href="<%- post.permalink %>#disqus_thread" class="article-comment-link">Comments</a>
       <% } %>
+
       <%- partial('post/tag') %>
     </footer>
   </div>

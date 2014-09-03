@@ -37,3 +37,6 @@ fb_app_id:
 
 # Duoshuo
 duoshuo_shortname: 
+
+# Baidu share
+baidushare: true
