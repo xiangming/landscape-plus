@@ -141,12 +141,13 @@ baidushare: true
 
 ## 网站列表
 
-+ **[reqianduan]** - Landscape plus主题演示
-+ **[bawn]** - iOS开发博客
-+ **[tangyumeng]** - tangyumeng's blog
-+ **[novsec]** - novsec's blog
-+ **[joysboy]** - 小峰网络遨游记
-+ **[沉默紀]** - Silenceage
+- **[reqianduan]** - The demo site of Landscape+.
+- **[bawn]** - iOS开发博客
+- **[tangyumeng]** - tangyumeng's blog
+- **[novsec]** - novsec's blog
+- **[joysboy]** - 小峰网络遨游记
+- **[沉默紀]** - Silenceage
+- **[游走的艺术]** - Artwalk's Blog
 
 [reqianduan]: http://reqianduan.com/
 [bawn]: http://bawn.github.io/    
@@ -154,5 +155,6 @@ baidushare: true
 [novsec]: http://www.novsec.com/
 [joysboy]: http://xfeng.me/
 [沉默紀]: http://silenceage.com/
+[游走的艺术]: http://artwalk.github.io/
 
 如果你的网站正在使用**landscape-plus**主题，欢迎将网址添加到[wiki的网站列表](https://github.com/xiangming/landscape-plus/wiki)，我会不定期进行整理。
