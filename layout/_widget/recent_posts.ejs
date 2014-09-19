@@ -5,7 +5,7 @@
       <ul>
         <% site.posts.sort('date', -1).limit(5).each(function(post){ %>
           <li>
-            <a href="<%- config.root %><%- post.path %>"><%= post.title || '(no title)' %></a>
+            <a href="<%- url_for(post.path) %>"><%= post.title || '(no title)' %></a>
           </li>
         <% }) %>
       </ul>

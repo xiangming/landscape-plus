@@ -21,7 +21,7 @@
       <% last = year; %>
       <section class="archives-wrap">
         <div class="archive-year-wrap">
-          <a href="<%- config.root %>archives/<%= year %>" class="archive-year"><%= year %></a>
+          <a href="<%- url_for('archives/' + year) %>" class="archive-year"><%= year %></a>
         </div>
         <div class="archives">
     <% } %>
