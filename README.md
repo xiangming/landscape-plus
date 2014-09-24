@@ -127,6 +127,9 @@ baidushare: true
 
 ## 更新日志
 
+### v1.0.2
++ 修改: 优化Generate速度，refs #13
+
 ### v1.0.1
 + 新增: 百度分享模块
 
