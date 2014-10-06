@@ -73,12 +73,8 @@ widgets:
 
 # Links
 links:
-  主题作者: http://themes.xiguabaobao.com
-  iOS开发博客: http://bawn.github.io/
-  tangyumeng's blog: http://tangyumeng.com/
-  novsec's blog: http://www.novsec.com/
-  小峰网络遨游记: http://xfeng.me/
-  沉默紀: http://silenceage.com/
+  主题作者: http://xiguabaobao.com
+  热前端: http://reqianduan.com
 
 # Miscellaneous
 google_analytics:
@@ -144,13 +140,14 @@ baidushare: true
 
 ## 网站列表
 
-- **[reqianduan]** - The demo site of Landscape+.
+- **[reqianduan]** - The demo site of Landscape-plus theme.
 - **[bawn]** - iOS开发博客
 - **[tangyumeng]** - tangyumeng's blog
 - **[novsec]** - novsec's blog
 - **[joysboy]** - 小峰网络遨游记
 - **[沉默紀]** - Silenceage
 - **[游走的艺术]** - Artwalk's Blog
+- **[Mark's Blog]** - Life and Technology
 
 [reqianduan]: http://reqianduan.com/
 [bawn]: http://bawn.github.io/    
@@ -159,5 +156,6 @@ baidushare: true
 [joysboy]: http://xfeng.me/
 [沉默紀]: http://silenceage.com/
 [游走的艺术]: http://artwalk.github.io/
+[Mark's Blog]: http://codermango.com/
 
 如果你的网站正在使用**landscape-plus**主题，欢迎将网址添加到[wiki的网站列表](https://github.com/xiangming/landscape-plus/wiki)，我会不定期进行整理。
