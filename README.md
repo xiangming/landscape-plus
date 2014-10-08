@@ -148,6 +148,7 @@ baidushare: true
 - **[沉默紀]** - Silenceage
 - **[游走的艺术]** - Artwalk's Blog
 - **[Mark's Blog]** - Life and Technology
+- **[一盏灯，一部随身听，一本书。。。。。。]** - This is 洛桑扎巴's personal blog
 
 [reqianduan]: http://reqianduan.com/
 [bawn]: http://bawn.github.io/    
@@ -157,5 +158,6 @@ baidushare: true
 [沉默紀]: http://silenceage.com/
 [游走的艺术]: http://artwalk.github.io/
 [Mark's Blog]: http://codermango.com/
+[一盏灯，一部随身听，一本书。。。。。。]: http://lszb811.com/
 
 如果你的网站正在使用**landscape-plus**主题，欢迎将网址添加到[wiki的网站列表](https://github.com/xiangming/landscape-plus/wiki)，我会不定期进行整理。
