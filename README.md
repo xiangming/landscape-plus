@@ -145,6 +145,7 @@ baidushare: true
 
 - **[reqianduan]** - The demo site of Landscape-plus theme.
 - **[bawn]** - iOS开发博客
+- **[假唐]** - 个人博客
 - **[tangyumeng]** - tangyumeng's blog
 - **[novsec]** - novsec's blog
 - **[joysboy]** - 小峰网络遨游记
@@ -152,9 +153,14 @@ baidushare: true
 - **[游走的艺术]** - Artwalk's Blog
 - **[Mark's Blog]** - Life and Technology
 - **[一盏灯，一部随身听，一本书。。。。。。]** - This is 洛桑扎巴's personal blog
+- **[YumeMichi's Blog]** - 随心、随想
+- **[小新技术随想]** - 技术，生活，梦想
+- **[N神的研究所]** - 我正在考虑在这里写点啥...
+- **[Mcl's Space]** -MCL 的空间
 
 [reqianduan]: http://reqianduan.com/
 [bawn]: http://bawn.github.io/    
+[假唐]: http://jiatang.me
 [tangyumeng]: http://www.tangyumeng.com
 [novsec]: http://www.novsec.com/
 [joysboy]: http://xfeng.me/
@@ -162,5 +168,9 @@ baidushare: true
 [游走的艺术]: http://artwalk.github.io/
 [Mark's Blog]: http://codermango.com/
 [一盏灯，一部随身听，一本书。。。。。。]: http://lszb811.com/
+[YumeMichi's Blog]: https://dsy.im
+[小新技术随想]: http://litengfei.com
+[N神的研究所]: http://nshen.net
+[Mcl's Space]: http://mclspace.com
 
 如果你的网站正在使用**landscape-plus**主题，欢迎将网址添加到[wiki的网站列表](https://github.com/xiangming/landscape-plus/wiki)，我会不定期进行整理。
