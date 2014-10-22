@@ -121,6 +121,9 @@ baidushare: true
 **问**：如何开启百度分享模块？
 > 修改`themes/landscape-plus\_config.yml`，将`baidushare`设置为`true`即可。（已默认开启）
 
+**问**：如何使用RSS分享功能？
+> 请参考这条[issue](https://github.com/xiangming/landscape-plus/issues/31)进行配置。
+
 ## 更新日志
 
 ### v1.0.2
