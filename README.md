@@ -93,7 +93,7 @@ baidushare: true
 
 + `links` - 友情链接
 + `duoshuo_shortname` - 多说评论id
-+ `baidushare` - 是否开始百度分享
++ `baidushare` - 是否开启百度分享
 
 ## 常见问题
 
