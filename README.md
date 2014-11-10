@@ -149,7 +149,7 @@ baidushare: true
 
 ## <a name='网站列表'>网站列表</a>
 
-- **[reqianduan]** - The demo site of Landscape-plus theme.
+- **[Landscape-plus主题]** - The demo site of Landscape-plus theme.
 - **[bawn]** - iOS开发博客
 - **[假唐]** - 个人博客
 - **[tangyumeng]** - tangyumeng's blog
@@ -163,8 +163,10 @@ baidushare: true
 - **[小新技术随想]** - 技术，生活，梦想
 - **[N神的研究所]** - 我正在考虑在这里写点啥...
 - **[Mcl's Space]** -MCL 的空间
+- **[Hello,world]** - 红红的个人博客
+- **[SkyCoder‘s Blog]** - SkyCoder‘s Blog
 
-[reqianduan]: http://reqianduan.com/
+[Landscape-plus主题]: http://jasonxiang.com/landscape-plus/
 [bawn]: http://bawn.github.io/    
 [假唐]: http://jiatang.me
 [tangyumeng]: http://www.tangyumeng.com
@@ -178,5 +180,7 @@ baidushare: true
 [小新技术随想]: http://litengfei.com
 [N神的研究所]: http://nshen.net
 [Mcl's Space]: http://mclspace.com
+[Hello,world]: http://lihongn.tk
+[SkyCoder‘s Blog]: http://twocucao.github.io/
 
 如果你的网站正在使用**landscape-plus**主题，欢迎将网址添加到[wiki的网站列表](https://github.com/xiangming/landscape-plus/wiki)，我会不定期进行整理。
