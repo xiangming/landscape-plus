@@ -30,7 +30,7 @@
 
 ## <a name='演示'>演示</a>
 
-你可以点击[这里](http://reqianduan.com/)，查看演示。
+你可以点击[这里](http://jasonxiang.com/landscape-plus/)，查看演示。
 
 ## <a name='安装'>安装</a>
 
@@ -149,7 +149,7 @@ baidushare: true
 
 ## <a name='网站列表'>网站列表</a>
 
-- **[Landscape-plus主题]** - The demo site of Landscape-plus theme.
+- **[hexo-theme-landscape-plus]** - The demo site of Landscape-plus theme.
 - **[bawn]** - iOS开发博客
 - **[假唐]** - 个人博客
 - **[tangyumeng]** - tangyumeng's blog
@@ -166,7 +166,7 @@ baidushare: true
 - **[Hello,world]** - 红红的个人博客
 - **[SkyCoder‘s Blog]** - SkyCoder‘s Blog
 
-[Landscape-plus主题]: http://jasonxiang.com/landscape-plus/
+[hexo-theme-landscape-plus]: http://jasonxiang.com/landscape-plus/
 [bawn]: http://bawn.github.io/    
 [假唐]: http://jiatang.me
 [tangyumeng]: http://www.tangyumeng.com
