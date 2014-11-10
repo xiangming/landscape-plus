@@ -5,13 +5,14 @@
 ## 所有新特性
 
 + 根据国情，**去掉Google的库**，改用cloudflare的cdn，打开页面不再卡住了。=> [参与国内cdn的讨论](https://github.com/xiangming/landscape-plus/issues/3)
-+ 增加了 **语言包**，所以英语不好的同学，我懂你的。
++ 增加了 **语言包** 。（支持英文、中文简体和中文繁体。）
 + 代码高亮，**采用Monokai**，熟悉SublimeText的朋友一定不陌生。
 + 增加了 **友情链接** widget。（已默认开启，修改方法看下面的[常见问题](#常见问题)。）
 + 不使用header里面的大图，节省带宽，页面加载更快。（大图文件还在，恢复方法看下面的[常见问题](#常见问题)。）
 + 修改了原主题的 **配色** 和部分markdown样式（blockquote/code...）
 + 集成 **多说评论模块** 。（开启方法看下面的[常见问题](#常见问题)。）
 + 集成 **百度分享模块** 。（已默认开启，详情看下面的[常见问题](#常见问题)。）
++ 增加对 **IE8** 的支持。
 + 集成 **mathjax**，即latex数学公式的支持。（感谢 @Svtter 的[pull request](https://github.com/xiangming/landscape-plus/pull/35)）
 
 主题还在调整中，欢迎[open issue](https://github.com/xiangming/landscape-plus/issues/new)来提建议，参与讨论。
@@ -126,6 +127,10 @@ baidushare: true
 > 请参考这条[issue](https://github.com/xiangming/landscape-plus/issues/31)进行配置。
 
 ## <a name='更新日志'>更新日志</a>
+
+### v1.0.3
++ 增加对 **IE8** 的支持
++ 集成 **mathjax** ，即latex数学公式的支持。（感谢 @Svtter 的[pull request](https://github.com/xiangming/landscape-plus/pull/35)）
 
 ### v1.0.2
 + 修改: 优化Generate速度，refs #13
