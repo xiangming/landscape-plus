@@ -26,29 +26,29 @@
 + [更新日志](#更新日志)
 + [网站列表](#网站列表)
 
-## 演示
+## <a name='演示'>演示</a>
 
 你可以点击[这里](http://reqianduan.com/)，查看演示。
 
-## 安装
+## <a name='安装'>安装</a>
 
 ``` bash
 $ git clone https://github.com/xiangming/landscape-plus.git themes/landscape-plus
 ```
 **Landscape plus 需要 Hexo 2.7 及以上版本.**
 
-## 启用
+## <a name='启用'>启用</a>
 
 修改主题的设置文件`_config.yml`，把`theme`的值设置为`landscape-plus`
 
-## 更新
+## <a name='更新'>更新</a>
 
 ``` bash
 cd themes/landscape-plus
 git pull
 ```
 
-## 配置
+## <a name='配置'>配置</a>
 
 ```yml
 # Header
@@ -95,7 +95,7 @@ baidushare: true
 + `duoshuo_shortname` - 多说评论id
 + `baidushare` - 是否开启百度分享
 
-## 常见问题
+## <a name='常见问题'>常见问题</a>
 
 **问**：Demo看起来很赞，我要**怎么使用landscape+主题？**
 > 按照上方的步骤进行`安装`、`启用`、`更新`。
@@ -124,7 +124,7 @@ baidushare: true
 **问**：如何使用RSS分享功能？
 > 请参考这条[issue](https://github.com/xiangming/landscape-plus/issues/31)进行配置。
 
-## 更新日志
+## <a name='更新日志'>更新日志</a>
 
 ### v1.0.2
 + 修改: 优化Generate速度，refs #13
@@ -141,7 +141,7 @@ baidushare: true
 + 修改：主题配色和部分markdown样式
 + 新增：多说评论模块
 
-## 网站列表
+## <a name='网站列表'>网站列表</a>
 
 - **[reqianduan]** - The demo site of Landscape-plus theme.
 - **[bawn]** - iOS开发博客
