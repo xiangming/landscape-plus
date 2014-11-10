@@ -12,6 +12,7 @@
 + 修改了原主题的 **配色** 和部分markdown样式（blockquote/code...）
 + 集成 **多说评论模块** 。（开启方法看下面的[常见问题](#常见问题)。）
 + 集成 **百度分享模块** 。（已默认开启，详情看下面的[常见问题](#常见问题)。）
++ 集成 **mathjax**，即latex数学公式的支持。（感谢 @Svtter 的[pull request](https://github.com/xiangming/landscape-plus/pull/35)）
 
 主题还在调整中，欢迎[open issue](https://github.com/xiangming/landscape-plus/issues/new)来提建议，参与讨论。
 
