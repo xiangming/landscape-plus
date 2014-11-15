@@ -53,5 +53,7 @@ var duoshuoQuery = {short_name:"<%= theme.duoshuo_shortname %>"};
   <%- js('fancybox/jquery.fancybox.pack') %>
 <% } %>
 
+<% if (theme.mathjax){ %>
 <%- partial('mathjax') %>
+<% } %>
 <%- js('js/script') %>
