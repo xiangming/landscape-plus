@@ -165,7 +165,16 @@ baidushare: true
 - **[Mcl's Space]** -MCL 的空间
 - **[Hello,world]** - 红红的个人博客
 - **[SkyCoder‘s Blog]** - SkyCoder‘s Blog
+- **[Yilong's Blog]** - Keep It simple,small...
+- **[漠北空城]** - 做好自己
+- **[Just for Free]** - 自由为王, 一生只为自由的活着
+- **[Rang]** - Rang
+- **[Beeder's Blog]** - Beeder's Blog
+- **[peng8.net]** - peng8.net 技术博客.
 
+[Rang]: http://wurang.net/
+[Beeder's Blog]: http://beeder.me/
+[peng8.net]:http://www.peng8.net/
 [hexo-theme-landscape-plus]: http://jasonxiang.com/landscape-plus/
 [bawn]: http://bawn.github.io/    
 [假唐]: http://jiatang.me
@@ -182,5 +191,8 @@ baidushare: true
 [Mcl's Space]: http://mclspace.com
 [Hello,world]: http://lihongn.tk
 [SkyCoder‘s Blog]: http://twocucao.github.io/
+[Yilong's Blog]: http://laiyilong.github.io/
+[漠北空城]: http://yuechang.github.io/
+[Just for Free]: http://cifer.me
 
 如果你的网站正在使用**landscape-plus**主题，欢迎将网址添加到[wiki的网站列表](https://github.com/xiangming/landscape-plus/wiki)，我会不定期进行整理。
