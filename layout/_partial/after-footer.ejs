@@ -1,3 +1,6 @@
+<!-- totop start -->
+<%- partial('totop') %>
+<!-- totop end -->
 <% if (theme.duoshuo_shortname){ %>
 <!-- 多说公共js代码 start -->
 <script type="text/javascript">
@@ -50,5 +53,7 @@ var duoshuoQuery = {short_name:"<%= theme.duoshuo_shortname %>"};
   <%- js('fancybox/jquery.fancybox.pack') %>
 <% } %>
 
+<% if (theme.mathjax){ %>
 <%- partial('mathjax') %>
+<% } %>
 <%- js('js/script') %>
