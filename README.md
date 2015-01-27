@@ -128,6 +128,13 @@ baidushare: true
 
 ## <a name='更新日志'>更新日志</a>
 
+### v1.0.4
++ 增加返回顶部功能
++ 修改渲染方式，现在默认page布局下仅渲染 .md 文件格式，其他格式一律只做复制。（方便添加静态页面，原本需要在每个文件开头添加 **layout: false**）
++ 添加**mathjax**的模块开关,不需要的可以自己关闭。
+
+特别感谢来自 @myqianlan 的[pull request](https://github.com/xiangming/landscape-plus/pull/39) 和 @bearpaw 的[pull request](https://github.com/xiangming/landscape-plus/pull/53)。
+
 ### v1.0.3
 + 增加对 **IE8** 的支持
 + 集成 **mathjax** ，即latex数学公式的支持。（感谢 @Svtter 的[pull request](https://github.com/xiangming/landscape-plus/pull/35)）
