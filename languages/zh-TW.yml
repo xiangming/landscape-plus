@@ -10,6 +10,7 @@ search: 搜索
 prev: 上一頁
 next: 下一頁
 comment: 文章評論
+comments: 評論
 contents: 文章目錄
 page: 第 %d 頁
 menu: 菜單
@@ -18,3 +19,5 @@ showsidebar: 顯示側邊欄
 hidesidebar: 隱藏側邊欄
 updated: 更新日期
 totop: 返回頂部
+older: 上一篇
+newer: 下一篇

@@ -30,9 +30,9 @@
       <% } %>
 
       <% if (post.comments && theme.duoshuo_shortname){ %>
-        <a href="<%- post.permalink %>#ds-thread" class="article-comment-link">Comments</a>
+        <a href="<%- post.permalink %>#ds-thread" class="article-comment-link"><%= __('comments') %></a>
       <% } else if (post.comments && config.disqus_shortname){ %>
-        <a href="<%- post.permalink %>#disqus_thread" class="article-comment-link">Comments</a>
+        <a href="<%- post.permalink %>#disqus_thread" class="article-comment-link"><%= __('comments') %></a>
       <% } %>
 
       <%- partial('post/tag') %>
