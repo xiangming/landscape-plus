@@ -29,8 +29,8 @@
   left: 0
   width: 100%
   height: 100%
-  background: #21282E
   // background: url(banner-url) center #000
+  background: url(banner-url) 50% 12% #000
   background-size: cover
   z-index: -1
 
@@ -44,28 +44,25 @@
 
 $logo-text
   text-decoration: none
-  color: #fff
+  color: #000
   font-weight: 300
   text-shadow: 0 1px 4px rgba(0, 0, 0, 0.3)
 
 #logo
   @extend $logo-text
   font-size: logo-size
+  font-family: font-logo
   line-height: logo-size
   letter-spacing: 2px
-  background: #E32D40
-  padding: 5px 10px
-  border-radius: 5px
 
 #subtitle
   @extend $logo-text
   font-size: subtitle-size
   line-height: subtitle-size
   letter-spacing: 1px
-  color: #687E91
 
 #subtitle-wrap
-  margin-top: subtitle-size
+  margin-top: subtitle-size + 5
 
 #main-nav
   float: left
@@ -73,8 +70,8 @@ $logo-text
 
 $nav-link
   float: left
-  color: #fff
-  opacity: 0.6
+  color: #000
+  opacity: 0.5
   text-decoration: none
   text-shadow: 0 1px rgba(0, 0, 0, 0.2)
   transition: opacity 0.2s
