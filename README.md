@@ -1,5 +1,7 @@
 # Landscape plus
 
+[![Join the chat at https://gitter.im/xiangming/landscape-plus](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/xiangming/landscape-plus?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 针对中国大陆地区对hexo官方主题landscape进行优化。
 
 ## 所有新特性
