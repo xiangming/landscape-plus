@@ -30,7 +30,8 @@
 
 .article-title
   text-decoration: none
-  font-size: 2em
+  font-size: 2.3em
+  font-family: font-article-title
   font-weight: bold
   color: color-default
   line-height: line-height-title
@@ -45,12 +46,14 @@
   padding: 0 article-padding
   p, table
     line-height: line-height
-    margin: line-height 0
+    // margin: line-height 0
+    margin: line-height - 0.3 0
   h1, h2, h3, h4, h5, h6
-    font-weight: bold
+    font-weight: 500
   h1, h2, h3, h4, h5, h6
     line-height: line-height-title
-    margin: line-height-title 0
+    // margin: line-height-title 0
+    margin: line-height-title - 0.2 0
   a
     color: color-link
     text-decoration: none
@@ -142,7 +145,7 @@
   font-size: 0.85em
   line-height: line-height
   border-top: 2px solid color-border
-  padding-top: line-height
+  padding-top: line-height - 0.4
   margin: 0 article-padding article-padding
   a
     color: color-grey

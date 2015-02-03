@@ -21,14 +21,14 @@ widgets:
 
 # Links
 links:
-  主题作者: http://xiguabaobao.com
-  热前端: http://reqianduan.com
+  Home: https://trusty.wolf.moe
+  萌狼纪念站: https://holo.wolf.moe
 
 # Miscellaneous
 google_analytics:
 favicon: /favicon.png
-twitter:
-google_plus:
+twitter: https://twitter.com/TrustyWolf
+google_plus: https://google.com/+TrustyWolf
 fb_admins: 
 fb_app_id:
 
@@ -36,4 +36,4 @@ fb_app_id:
 duoshuo_shortname: 
 
 # Baidu share
-baidushare: true
+baidushare: false
