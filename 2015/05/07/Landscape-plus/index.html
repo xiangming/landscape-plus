@@ -6,36 +6,30 @@
   
   <title>Landscape Plus | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="针对中国大陆的hexo用户，优化hexo官方主题landscape。支持hexo 3.x 和 hexo 2.x。
+  <meta name="description" content="针对中国大陆的hexo用户，优化hexo官方主题landscape。支持hexo 3.x 和 hexo 2.x。演示
 主题特色
+主题配置项优化，你可以将主题配置项放在站点的_config.yml中，避免主题更新造成的冲突。
 移除Google库，改用cloudflare的CDN，加快页面显示速度。
 新增多语言支持，支持英文、中文简体和中文繁体。
-新增友情链接模块，已默认开启，修改方法看下面的常见问题。
-新增百度分享模块，已默认开启。
-新增多说评论模块，开启方法看下面的常见问题。
-新增mathjax">
+新增友情链接模块，已默认开启，修改方法看下面的常见问题">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Landscape Plus">
 <meta property="og:url" content="http://yoursite.com/2015/05/07/Landscape-plus/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="针对中国大陆的hexo用户，优化hexo官方主题landscape。支持hexo 3.x 和 hexo 2.x。
+<meta property="og:description" content="针对中国大陆的hexo用户，优化hexo官方主题landscape。支持hexo 3.x 和 hexo 2.x。演示
 主题特色
+主题配置项优化，你可以将主题配置项放在站点的_config.yml中，避免主题更新造成的冲突。
 移除Google库，改用cloudflare的CDN，加快页面显示速度。
 新增多语言支持，支持英文、中文简体和中文繁体。
-新增友情链接模块，已默认开启，修改方法看下面的常见问题。
-新增百度分享模块，已默认开启。
-新增多说评论模块，开启方法看下面的常见问题。
-新增mathjax">
+新增友情链接模块，已默认开启，修改方法看下面的常见问题">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Landscape Plus">
-<meta name="twitter:description" content="针对中国大陆的hexo用户，优化hexo官方主题landscape。支持hexo 3.x 和 hexo 2.x。
+<meta name="twitter:description" content="针对中国大陆的hexo用户，优化hexo官方主题landscape。支持hexo 3.x 和 hexo 2.x。演示
 主题特色
+主题配置项优化，你可以将主题配置项放在站点的_config.yml中，避免主题更新造成的冲突。
 移除Google库，改用cloudflare的CDN，加快页面显示速度。
 新增多语言支持，支持英文、中文简体和中文繁体。
-新增友情链接模块，已默认开启，修改方法看下面的常见问题。
-新增百度分享模块，已默认开启。
-新增多说评论模块，开启方法看下面的常见问题。
-新增mathjax">
+新增友情链接模块，已默认开启，修改方法看下面的常见问题">
   
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -109,14 +103,15 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>针对中国大陆的hexo用户，优化hexo官方主题landscape。支持hexo 3.x 和 hexo 2.x。</p>
+        <p>针对中国大陆的hexo用户，优化hexo官方主题landscape。支持hexo 3.x 和 hexo 2.x。<a href="http://jasonxiang.com/landscape-plus/" target="_blank" rel="external"><strong>演示</strong></a></p>
 <h2 id="主题特色">主题特色</h2><ul>
+<li><strong>主题配置项优化</strong>，你可以将主题配置项放在站点的<code>_config.yml</code>中，避免主题更新造成的冲突。</li>
 <li><strong>移除Google库</strong>，改用cloudflare的CDN，加快页面显示速度。</li>
 <li><strong>新增多语言支持</strong>，支持英文、中文简体和中文繁体。</li>
 <li><strong>新增友情链接模块</strong>，已默认开启，修改方法看下面的<a href="#常见问题">常见问题</a>。</li>
 <li><strong>新增百度分享模块</strong>，已默认开启。</li>
 <li><strong>新增多说评论模块</strong>，开启方法看下面的<a href="#常见问题">常见问题</a>。</li>
-<li><strong>新增mathjax模块</strong>，即latex数学公式的支持。（感谢 @Svtter 的<a href="https://github.com/xiangming/landscape-plus/pull/35" target="_blank" rel="external">pull request</a>）</li>
+<li><strong>新增mathjax模块</strong>，即latex数学公式的支持，默认关闭。（感谢 @Svtter 的<a href="https://github.com/xiangming/landscape-plus/pull/35" target="_blank" rel="external">pull request</a>）</li>
 <li><strong>新增IE8支持</strong>。</li>
 <li><strong>外观美化</strong>，美化了部分外观样式。</li>
 <li><strong>使用Monokai代码高亮配色</strong>，最流行、最优雅的代码高亮配色方案。</li>
@@ -125,34 +120,37 @@
 <h2 id="文档目录">文档目录</h2><ul>
 <li><a href="#install">安装</a></li>
 <li><a href="#enable">启用</a></li>
-<li><a href="#update">更新</a></li>
 <li><a href="#config">配置</a></li>
+<li><a href="#update">更新</a></li>
 <li><a href="#troubleshoots">常见问题</a></li>
 <li><a href="#logs">更新日志</a></li>
 <li><a href="#sites">网站列表</a></li>
 <li><a href="#contribute">贡献者们</a></li>
 </ul>
 <h2 id="安装"><a name="install">安装</a></h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/xiangming/landscape-plus.git themes/landscape-plus</span><br></pre></td></tr></table></figure>
-<h2 id="启用"><a name="enable">启用</a></h2><p>修改hexo的配置文件<code>_config.yml</code>，把<code>theme</code>的值设置为<code>landscape-plus</code><br><figure class="highlight groovy"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"># Extensions</span><br><span class="line">## <span class="string">Plugins:</span> <span class="string">http:</span><span class="comment">//hexo.io/plugins/</span></span><br><span class="line">## <span class="string">Themes:</span> <span class="string">http:</span><span class="comment">//hexo.io/themes/</span></span><br><span class="line"><span class="string">theme:</span> landscape-plus</span><br></pre></td></tr></table></figure></p>
-<h2 id="更新"><a name="update">更新</a></h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> themes/landscape-plus</span><br><span class="line">git pull</span><br></pre></td></tr></table></figure>
+<h2 id="启用"><a name="enable">启用</a></h2><p>修改hexo的配置文件<code>_config.yml</code>，把<code>theme</code>的值设置为<code>landscape-plus</code><br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"># Extensions&#10;## Plugins: http://hexo.io/plugins/&#10;## Themes: http://hexo.io/themes/&#10;theme: landscape-plus</span><br></pre></td></tr></table></figure></p>
 <h2 id="配置"><a name="config">配置</a></h2><p>主题的默认配置文件<code>landscape-plus\_config.yml</code>：</p>
-<figure class="highlight avrasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br></pre></td><td class="code"><pre><span class="line"><span class="preprocessor"># Header</span></span><br><span class="line"><span class="label">menu:</span></span><br><span class="line">  Home: /</span><br><span class="line">  Archives: /archives</span><br><span class="line"><span class="label">rss:</span> /atom.xml</span><br><span class="line"></span><br><span class="line"><span class="preprocessor"># Content</span></span><br><span class="line"><span class="label">excerpt_link:</span> Read More</span><br><span class="line"><span class="label">fancybox:</span> false</span><br><span class="line"></span><br><span class="line"><span class="preprocessor"># Sidebar</span></span><br><span class="line"><span class="label">sidebar:</span> right</span><br><span class="line"><span class="label">widgets:</span></span><br><span class="line">- category</span><br><span class="line">- tag</span><br><span class="line">- tagcloud</span><br><span class="line">- archive</span><br><span class="line">- recent_posts</span><br><span class="line">- links</span><br><span class="line"></span><br><span class="line"><span class="preprocessor"># Links</span></span><br><span class="line"><span class="label">links:</span></span><br><span class="line">  主题作者: http://xiguabaobao.com</span><br><span class="line">  热前端: http://reqianduan.com</span><br><span class="line"></span><br><span class="line"><span class="preprocessor"># Miscellaneous</span></span><br><span class="line"><span class="label">google_analytics:</span></span><br><span class="line"><span class="label">favicon:</span> /favicon.png</span><br><span class="line"><span class="label">twitter:</span></span><br><span class="line"><span class="label">google_plus:</span></span><br><span class="line"><span class="label">fb_admins:</span></span><br><span class="line"><span class="label">fb_app_id:</span></span><br><span class="line"></span><br><span class="line"><span class="preprocessor"># Duoshuo</span></span><br><span class="line"><span class="label">duoshuo_shortname:</span></span><br><span class="line"></span><br><span class="line"><span class="preprocessor"># Baidu share</span></span><br><span class="line"><span class="label">baidushare:</span> true</span><br></pre></td></tr></table></figure>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"># Header&#10;menu:&#10;  Home: /&#10;  Archives: /archives&#10;rss: /atom.xml&#10;&#10;# Content&#10;excerpt_link: Read More&#10;fancybox: false&#10;mathjax: false&#10;&#10;# Sidebar&#10;sidebar: right&#10;widgets:&#10;- category&#10;- tag&#10;- tagcloud&#10;- archive&#10;- recent_posts&#10;- links&#10;&#10;# Links&#10;links:&#10;  &#20027;&#39064;&#20316;&#32773;: http://xiguabaobao.com&#10;  &#28909;&#21069;&#31471;: http://reqianduan.com&#10;&#10;# Miscellaneous&#10;google_analytics:&#10;favicon: /favicon.png&#10;twitter:&#10;google_plus:&#10;fb_admins:&#10;fb_app_id:&#10;&#10;# Duoshuo&#10;duoshuo_shortname:&#10;&#10;# Baidu share&#10;baidushare: true</span><br></pre></td></tr></table></figure>
 <ul>
+<li><code>mathjax</code> - 是否开启latex数学公式</li>
 <li><code>links</code> - 友情链接</li>
 <li><code>duoshuo_shortname</code> - 多说评论id</li>
 <li><code>baidushare</code> - 是否开启百度分享</li>
 </ul>
-<h2 id="常见问题"><a name="troubleshoots">常见问题</a></h2><p><strong>问</strong>：Demo看起来很赞，我要<strong>怎么使用landscape plus主题？</strong></p>
+<p><strong>建议！</strong> <code>mathjax</code>、<code>links</code>、<code>duoshuo_shortname</code>、<code>baidushare</code>配置项也支持放在站点的<code>_config.yml</code>中，并且我们建议你这样做。</p>
+<h2 id="更新"><a name="update">更新</a></h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> themes/landscape-plus</span><br><span class="line">git pull</span><br></pre></td></tr></table></figure>
+<p><strong>提示</strong> 如果更新发生错误，你可以删除整个主题文件夹，然后重新执行<a href="#install">安装</a>操作。</p>
+<h2 id="常见问题"><a name="troubleshoots">常见问题</a></h2><p><strong>问</strong>：<strong>怎么使用landscape plus主题？</strong></p>
 <blockquote>
-<p>按照上方的步骤进行<code>安装</code>、<code>启用</code>、<code>更新</code>。</p>
+<p>按照上方的步骤进行<code>安装</code>、<code>启用</code>。</p>
 </blockquote>
 <p><strong>问</strong>：如何开启多说评论模块？</p>
 <blockquote>
-<p>修改<code>themes/landscape-plus\_config.yml</code>，填写你的多说id即可。主题会优先使用多说评论，代替hexo默认的disqus。</p>
+<p>在站点的<code>_config.yml</code>中，增加<code>duoshuo_shortname: xxx</code>配置项，xxx是你的多说id。</p>
 </blockquote>
 <p><strong>问</strong>：如何关闭百度分享模块？</p>
 <blockquote>
-<p>修改<code>themes/landscape-plus\_config.yml</code>，将<code>baidushare</code>设置为<code>false</code>即可。</p>
+<p>删掉<code>themes/landscape-plus\_config.yml</code>中的<code>baidushare</code>配置项。</p>
 </blockquote>
 <p><strong>问</strong>：如何使用RSS分享功能？</p>
 <blockquote>
@@ -160,11 +158,11 @@
 </blockquote>
 <p><strong>问</strong>：怎么添加友情链接？</p>
 <blockquote>
-<p>修改<code>themes/landscape-plus/_config.yml</code>中的<code>links</code>。</p>
+<p>在站点的<code>_config.yml</code>中，增加<code>links:</code>配置项。</p>
 </blockquote>
-<p><strong>问</strong>：怎么使用英语版本？</p>
+<p><strong>问</strong>：怎么切换语言版本？</p>
 <blockquote>
-<p>修改你的hexo配置文件<code>_config.yml</code>，去掉<code>language: zh-CN</code>。</p>
+<p>在站点的配置文件<code>_config.yml</code>，修改<code>language:</code>配置项，zh-CN为中文简体，zh-TW为中文繁体，default为英文。</p>
 </blockquote>
 <p><strong>问</strong>：我喜欢原主题顶部的大图，如何恢复？</p>
 <blockquote>
@@ -178,7 +176,12 @@
 <blockquote>
 <p>主题还在调整中，欢迎<a href="https://github.com/xiangming/landscape-plus/issues/new" target="_blank" rel="external">open issue</a>来提建议，参与讨论。</p>
 </blockquote>
-<h2 id="更新日志"><a name="logs">更新日志</a></h2><h3 id="v1-0-4">v1.0.4</h3><ul>
+<h2 id="更新日志"><a name="logs">更新日志</a></h2><h3 id="v1-0-5">v1.0.5</h3><ul>
+<li>主题配置项优化, refs #17</li>
+<li>百度分享样式调整，refs #45, refs #61</li>
+<li>更新主题说明README.md</li>
+</ul>
+<h3 id="v1-0-4">v1.0.4</h3><ul>
 <li>增加返回顶部功能</li>
 <li>修改渲染方式，现在默认page布局下仅渲染 .md 文件格式，其他格式一律只做复制。（方便添加静态页面，原本需要在每个文件开头添加 <strong>layout: false</strong>）</li>
 <li>添加<strong>mathjax</strong>的模块开关,不需要的可以自己关闭。</li>
@@ -217,7 +220,7 @@
     </div>
     <footer class="article-footer">
       
-        <a data-url="http://yoursite.com/2015/05/07/Landscape-plus/" data-id="ci9dnm6v20008v4u0ar0nxo9o" class="article-share-link" data-share="baidu">分享到</a>
+        <a data-url="http://yoursite.com/2015/05/07/Landscape-plus/" data-id="ci9dpf6ar0008z0u0hicq64ns" class="article-share-link" data-share="baidu">分享到</a>
       
 
       
