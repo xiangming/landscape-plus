@@ -32,14 +32,14 @@
 
 ## <a name='install'>安装</a>
 
-``` bash
+```bash
 git clone https://github.com/xiangming/landscape-plus.git themes/landscape-plus
 ```
 
 ## <a name='enable'>启用</a>
 
 修改hexo的配置文件`_config.yml`，把`theme`的值设置为`landscape-plus`
-```
+```yml
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
@@ -101,7 +101,7 @@ baidushare: true
 
 ## <a name='update'>更新</a>
 
-``` bash
+```bash
 cd themes/landscape-plus
 git pull
 ```
@@ -110,23 +110,23 @@ git pull
 
 ## <a name='troubleshoots'>常见问题</a>
 
-**问**：Demo看起来很赞，我要**怎么使用landscape plus主题？**
-> 按照上方的步骤进行`安装`、`启用`、`更新`。
+**问**：**怎么使用landscape plus主题？**
+> 按照上方的步骤进行`安装`、`启用`。
 
 **问**：如何开启多说评论模块？
-> 修改`themes/landscape-plus\_config.yml`，填写你的多说id即可。主题会优先使用多说评论，代替hexo默认的disqus。
+> 在站点的`_config.yml`中，增加`duoshuo_shortname: xxx`配置项，xxx是你的多说id。
 
 **问**：如何关闭百度分享模块？
-> 修改`themes/landscape-plus\_config.yml`，将`baidushare`设置为`false`即可。
+> 删掉`themes/landscape-plus\_config.yml`中的`baidushare`配置项。
 
 **问**：如何使用RSS分享功能？
 > 请参考这条[issue](https://github.com/xiangming/landscape-plus/issues/31)进行配置。
 
 **问**：怎么添加友情链接？
-> 修改`themes/landscape-plus/_config.yml`中的`links`。
+> 在站点的`_config.yml`中，增加`links:`配置项。
 
-**问**：怎么使用英语版本？
-> 修改你的hexo配置文件`_config.yml`，去掉`language: zh-CN`。
+**问**：怎么切换语言版本？
+> 在站点的配置文件`_config.yml`，修改`language:`配置项，zh-CN为中文简体，zh-TW为中文繁体，default为英文。
 
 **问**：我喜欢原主题顶部的大图，如何恢复？
 > `themes/landscape-plus/source/css/_partial/header.styl`，取消第33行的注释。
@@ -138,6 +138,11 @@ git pull
 > 主题还在调整中，欢迎[open issue](https://github.com/xiangming/landscape-plus/issues/new)来提建议，参与讨论。
 
 ## <a name='logs'>更新日志</a>
+
+### v1.0.5
++ 主题配置项优化, refs #17
++ 百度分享样式调整，refs #45, refs #61
++ 更新主题说明README.md
 
 ### v1.0.4
 + 增加返回顶部功能
