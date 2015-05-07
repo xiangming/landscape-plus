@@ -23,13 +23,13 @@
       <% } %>
     </div>
     <footer class="article-footer">
-      <% if (theme.baidushare){ %>
+      <% if (config.baidushare || theme.baidushare){ %>
         <a data-url="<%- post.permalink %>" data-id="<%= post._id %>" class="article-share-link" data-share="baidu"><%= __('share') %></a>
       <% } else { %>
         <a data-url="<%- post.permalink %>" data-id="<%= post._id %>" class="article-share-link"><%= __('share') %></a>
       <% } %>
 
-      <% if (post.comments && theme.duoshuo_shortname){ %>
+      <% if (post.comments && (config.duoshuo_shortname || theme.duoshuo_shortname)){ %>
         <a href="<%- post.permalink %>#ds-thread" class="article-comment-link"><%= __('comments') %></a>
       <% } else if (post.comments && config.disqus_shortname){ %>
         <a href="<%- post.permalink %>#disqus_thread" class="article-comment-link"><%= __('comments') %></a>
@@ -43,7 +43,7 @@
   <% } %>
 </article>
 
-<% if (!index && post.comments && theme.duoshuo_shortname){ %>
+<% if (!index && post.comments && (config.duoshuo_shortname || theme.duoshuo_shortname)){ %>
   <section id="comments">
     <div id="ds-thread" class="ds-thread" data-thread-key="<%= post.path %>" data-title="<%= post.title %>" data-url="<%= post.permalink %>"></div>
   </section>

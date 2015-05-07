@@ -6,12 +6,13 @@
 
 ## 主题特色
 
++ **主题配置项优化**，你可以将主题配置项放在站点的`_config.yml`中，避免主题更新造成的冲突。
 + **移除Google库**，改用cloudflare的CDN，加快页面显示速度。
 + **新增多语言支持**，支持英文、中文简体和中文繁体。
 + **新增友情链接模块**，已默认开启，修改方法看下面的[常见问题](#常见问题)。
 + **新增百度分享模块**，已默认开启。
 + **新增多说评论模块**，开启方法看下面的[常见问题](#常见问题)。
-+ **新增mathjax模块**，即latex数学公式的支持。（感谢 @Svtter 的[pull request](https://github.com/xiangming/landscape-plus/pull/35)）
++ **新增mathjax模块**，即latex数学公式的支持，默认关闭。（感谢 @Svtter 的[pull request](https://github.com/xiangming/landscape-plus/pull/35)）
 + **新增IE8支持**。
 + **外观美化**，美化了部分外观样式。
 + **使用Monokai代码高亮配色**，最流行、最优雅的代码高亮配色方案。
@@ -22,8 +23,8 @@
 
 + [安装](#install)
 + [启用](#enable)
-+ [更新](#update)
 + [配置](#config)
++ [更新](#update)
 + [常见问题](#troubleshoots)
 + [更新日志](#logs)
 + [网站列表](#sites)
@@ -45,13 +46,6 @@ git clone https://github.com/xiangming/landscape-plus.git themes/landscape-plus
 theme: landscape-plus
 ```
 
-## <a name='update'>更新</a>
-
-``` bash
-cd themes/landscape-plus
-git pull
-```
-
 ## <a name='config'>配置</a>
 
 主题的默认配置文件`landscape-plus\_config.yml`：
@@ -66,6 +60,7 @@ rss: /atom.xml
 # Content
 excerpt_link: Read More
 fancybox: false
+mathjax: false
 
 # Sidebar
 sidebar: right
@@ -97,9 +92,21 @@ duoshuo_shortname:
 baidushare: true
 ```
 
++ `mathjax` - 是否开启latex数学公式
 + `links` - 友情链接
 + `duoshuo_shortname` - 多说评论id
 + `baidushare` - 是否开启百度分享
+
+**建议！** `mathjax`、`links`、`duoshuo_shortname`、`baidushare`配置项也支持放在站点的`_config.yml`中，并且我们建议你这样做。
+
+## <a name='update'>更新</a>
+
+``` bash
+cd themes/landscape-plus
+git pull
+```
+
+**提示** 如果更新发生错误，你可以删除整个主题文件夹，然后重新执行[安装](#install)操作。
 
 ## <a name='troubleshoots'>常见问题</a>
 

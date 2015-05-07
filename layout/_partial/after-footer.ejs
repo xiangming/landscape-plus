@@ -1,10 +1,10 @@
 <!-- totop start -->
 <%- partial('totop') %>
 <!-- totop end -->
-<% if (theme.duoshuo_shortname){ %>
+<% if (config.duoshuo_shortname || theme.duoshuo_shortname){ %>
 <!-- 多说公共js代码 start -->
 <script type="text/javascript">
-var duoshuoQuery = {short_name:"<%= theme.duoshuo_shortname %>"};
+var duoshuoQuery = {short_name:"<%= config.duoshuo_shortname || theme.duoshuo_shortname %>"};
   (function() {
     var ds = document.createElement('script');
     ds.type = 'text/javascript';ds.async = true;
@@ -32,7 +32,7 @@ var duoshuoQuery = {short_name:"<%= theme.duoshuo_shortname %>"};
 <% } %>
 
 <!-- 百度分享 start -->
-<% if (theme.baidushare){ %>
+<% if (config.baidushare || theme.baidushare){ %>
 <div id="article-share-box" class="article-share-box">
   <div id="bdshare" class="bdsharebuttonbox article-share-links">
     <a class="article-share-weibo" data-cmd="tsina" title="分享到新浪微博"></a>
@@ -48,12 +48,12 @@ var duoshuoQuery = {short_name:"<%= theme.duoshuo_shortname %>"};
 
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
-<% if (theme.fancybox){ %>
+<% if ((config.fancybox || theme.fancybox)){ %>
   <%- css('fancybox/jquery.fancybox') %>
   <%- js('fancybox/jquery.fancybox.pack') %>
 <% } %>
 
-<% if (theme.mathjax){ %>
+<% if ((config.mathjax || theme.mathjax)){ %>
 <%- partial('mathjax') %>
 <% } %>
 <%- js('js/script') %>
