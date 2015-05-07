@@ -3,7 +3,7 @@
     <h3 class="widget-title"><%= __('links') %></h3>
     <div class="widget">
       <ul>
-        <% for (var i in theme.links){ %>
+        <% for (var i in (config.links || theme.links)){ %>
           <li>
             <a href="<%- theme.links[i] %>" target="_blank"><%= i %></a>
           </li>
