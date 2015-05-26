@@ -32,6 +32,10 @@
 
 ## <a name='install'>安装</a>
 
+你可以选择要下载的**release**版本：https://github.com/xiangming/landscape-plus/releases
+
+或者直接使用最新版：（可能会存在bug，谨慎使用）
+
 ```bash
 git clone https://github.com/xiangming/landscape-plus.git themes/landscape-plus
 ```
