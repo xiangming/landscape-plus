@@ -24,7 +24,7 @@
     </div>
     <footer class="article-footer">
       <% if (config.baidushare || theme.baidushare){ %>
-        <a data-url="<%- post.permalink %>" data-id="<%= post._id %>" class="article-share-link" data-share="baidu"><%= __('share') %></a>
+        <a data-url="<%- post.permalink %>" data-id="<%= post._id %>" class="article-share-link" data-share="baidu" data-title="<%= post.title %>"><%= __('share') %></a>
       <% } else { %>
         <a data-url="<%- post.permalink %>" data-id="<%= post._id %>" class="article-share-link"><%= __('share') %></a>
       <% } %>

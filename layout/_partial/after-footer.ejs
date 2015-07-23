@@ -42,7 +42,17 @@ var duoshuoQuery = {short_name:"<%= config.duoshuo_shortname || theme.duoshuo_sh
     <a class="article-share-more" data-cmd="more" title="更多"></a>
   </div>
 </div>
-<script>window._bd_share_config={"common":{},"share":{"bdCustomStyle":"<%- url_for("/css/bdshare.css") %>"}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?cdnversion='+~(-new Date()/36e5)];</script>
+<script>
+  function SetShareData(cmd, config) {
+    if (shareDataTitle) {
+      config.bdText = shareDataTitle;
+      if (shareDataUrl) {
+        config.bdUrl = shareDataUrl;
+      }
+    }
+    return config;
+  }
+window._bd_share_config={"common":{onBeforeClick: SetShareData},"share":{"bdCustomStyle":"<%- url_for("/css/bdshare.css") %>"}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?cdnversion='+~(-new Date()/36e5)];</script>
 <% } %>
 <!-- 百度分享 end -->
 
