@@ -69,6 +69,8 @@
 
     if (type == 'baidu') {
       var box = $('#article-share-box');
+      shareDataUrl = $this.attr('data-url');
+      shareDataTitle = $this.attr('data-title');
 
       if (box.hasClass('on')){
         box.removeClass('on');
