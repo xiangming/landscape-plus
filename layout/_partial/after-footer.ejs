@@ -15,9 +15,9 @@ var duoshuoQuery = {short_name:"<%= config.duoshuo_shortname || theme.duoshuo_sh
   })();
   </script>
 <!-- 多说公共js代码 end -->
-<% } else if (config.disqus_shortname){ %>
+<% } else if (config.disqus_shortname || theme.disqus_shortname){ %>
 <script>
-  var disqus_shortname = '<%= config.disqus_shortname %>';
+  var disqus_shortname = '<%= config.disqus_shortname || theme.disqus_shortname %>';
   <% if (page.permalink){ %>
   var disqus_url = '<%= page.permalink %>';
   <% } %>
