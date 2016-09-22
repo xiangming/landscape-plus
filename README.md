@@ -7,9 +7,9 @@
 ## 主题特色
 
 + **新增多语言支持**，支持英文、中文简体和中文繁体。
-+ **新增友情链接模块**，已默认开启，修改方法看下面的[常见问题](#常见问题)。
++ **新增友情链接模块**，已默认开启，修改方法看下面的[FAQs](#faqs)。
 + **新增百度分享模块**，已默认开启。
-+ **新增多说评论模块**，开启方法看下面的[常见问题](#常见问题)，仍支持Disqus。
++ **新增多说评论模块**，开启方法看下面的[FAQs](#faqs)，仍支持Disqus。
 + **新增mathjax模块**，即latex数学公式的支持，默认关闭。（感谢 @Svtter 的[pull request](https://github.com/xiangming/landscape-plus/pull/35)）
 + **新增IE8支持**。
 + **新增Monokai代码高亮配色**，最流行、最优雅的代码高亮配色方案。
@@ -25,7 +25,7 @@
 + [启用](#enable)
 + [配置](#config)
 + [更新](#update)
-+ [常见问题](#troubleshoots)
++ [FAQs](#faqs)
 + [更新日志](#logs)
 + [网站列表](#sites)
 + [贡献者们](#contribute)
@@ -115,7 +115,7 @@ git pull
 
 **提示** 如果更新发生错误，你可以删除整个主题文件夹，然后重新执行[安装](#install)操作。
 
-## <a name='troubleshoots'>常见问题</a>
+## <a name='faqs'>FAQs</a>
 
 **问**：**怎么使用landscape plus主题？**
 > 按照上方的步骤进行`安装`、`启用`。
