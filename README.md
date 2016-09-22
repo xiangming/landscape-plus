@@ -6,12 +6,13 @@
 
 ## 主题特色
 
-+ **新增多语言支持**，支持英文、中文简体和中文繁体。
++ **新增多语言支持**，支持英文(default)、中文简体(zh-CN)和中文繁体(zh-TW)。
 + **新增友情链接模块**，已默认开启，修改方法看下面的[FAQs](#faqs)。
 + **新增百度分享模块**，已默认开启。
 + **新增多说评论模块**，开启方法看下面的[FAQs](#faqs)，仍支持Disqus。
 + **新增mathjax模块**，即latex数学公式的支持，默认关闭。（感谢 @Svtter 的[pull request](https://github.com/xiangming/landscape-plus/pull/35)）
-+ **新增IE8支持**。
++ **新增IE8支持**
++ **新增返回顶部功能**
 + **新增Monokai代码高亮配色**，最流行、最优雅的代码高亮配色方案。
 + **移除Google库**，改用国内可以访问的CDN，加快页面显示速度。
 + **外观美化**，美化了部分外观样式。
@@ -27,8 +28,8 @@
 + [更新](#update)
 + [FAQs](#faqs)
 + [更新日志](#logs)
++ [贡献者们](#contributors)
 + [网站列表](#sites)
-+ [贡献者们](#contribute)
 
 ## <a name='install'>安装</a>
 
@@ -146,15 +147,18 @@ git pull
 
 ## <a name='logs'>更新日志</a>
 
+
+### v1.0.6
++ 修复归档页面没有分页的BUG, refs #36, fix #78, #79, #85, #103, #106
+
 ### v1.0.5
 + 主题配置项优化, refs #17
 + 百度分享样式调整，refs #45, refs #61
-+ 更新主题说明README.md
 
 ### v1.0.4
-+ 增加返回顶部功能
++ 新增返回顶部功能
 + 修改渲染方式，现在默认page布局下仅渲染 .md 文件格式，其他格式一律只做复制。（方便添加静态页面，原本需要在每个文件开头添加 **layout: false**）
-+ 添加**mathjax**的模块开关,不需要的可以自己关闭。
++ 添加**mathjax**的模块开关，不需要的可以自己关闭。
 
 特别感谢来自 @myqianlan 的[pull request](https://github.com/xiangming/landscape-plus/pull/39) 和 @bearpaw 的[pull request](https://github.com/xiangming/landscape-plus/pull/53)。
 
@@ -166,18 +170,16 @@ git pull
 + 修改: 优化Generate速度，refs #13
 
 ### v1.0.1
-+ 新增: 百度分享模块
++ 新增: 百度分享功能
 
 ### v1.0.0
-+ 修改：根据国情，去掉Google的库，改用cloudflare的cdn
 + 新增：语言包
-+ 修改：代码高亮配色修改为`Monokai`
 + 新增：友情链接
-+ 修改：隐藏顶部大图
-+ 修改：主题配色和部分markdown样式
 + 新增：多说评论模块
++ 新增：代码高亮配色`Monokai`
++ 修改：使用国内可以访问的CDN，加快页面显示速度。
 
-## <a name='contribute'>贡献者们</a>
+## <a name='contributors'>贡献者们</a>
 
 + [xiangming](https://github.com/xiangming)
 + [myqianlan](https://github.com/myqianlan)
