@@ -2,7 +2,7 @@
 
 [![Join the chat at https://gitter.im/xiangming/landscape-plus](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/xiangming/landscape-plus?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-针对中国大陆的hexo用户，优化hexo官方主题landscape。支持hexo 3.x 和 hexo 2.x。[**演示**](http://jasonxiang.com/landscape-plus/)
+针对中国大陆的[hexo](https://hexo.io/)用户，优化hexo官方主题landscape。支持hexo 3.x 和 hexo 2.x。[**演示**](http://xiangming.github.io/landscape-plus/)
 
 ## 主题特色
 
@@ -35,7 +35,7 @@
 
 从[**release页面**](https://github.com/xiangming/landscape-plus/releases)下载，然后解压到hexo的themes目录下。
 
-或者直接拉取最新版：（可能会存在bug，不建议新手尝试）
+或者直接clone最新版：（可能会存在bug，不建议新手尝试）
 
 ```bash
 # 在hexo根目录下执行
@@ -52,7 +52,7 @@ git clone https://github.com/xiangming/landscape-plus.git themes/landscape-plus
 theme: landscape-plus
 ```
 
-## <a name='config'>配置</a>
+## <a name='config'>默认配置</a>
 
 主题的默认配置文件`landscape-plus\_config.yml`：
 
@@ -100,12 +100,11 @@ disqus_shortname: your_shortname
 baidushare: true
 ```
 
-+ `mathjax` - 是否开启latex数学公式
-+ `links` - 友情链接
++ `mathjax` - true/false，是否开启latex数学公式
 + `duoshuo_shortname` - 多说评论id
-+ `baidushare` - 是否开启百度分享
++ `baidushare` - true/false，是否开启百度分享
 
-**建议！** `mathjax`、`links`、`duoshuo_shortname`、`baidushare`配置项也支持放在站点的`_config.yml`中，并且我们建议你这样做。
+> 建议将 `mathjax`、`links`、`duoshuo_shortname`、`baidushare`配置项放在hexo的`_config.yml`中，而不是主题的`_config.yml`中，这样可以避免配置丢失。
 
 ## <a name='update'>更新</a>
 
@@ -114,7 +113,7 @@ cd themes/landscape-plus
 git pull
 ```
 
-**提示** 如果更新发生错误，你可以删除整个主题文件夹，然后重新执行[安装](#install)操作。
+> **提示** 如果更新发生错误，你可以删除整个landscape-plus文件夹，然后重新执行[安装](#install)操作。
 
 ## <a name='faqs'>FAQs</a>
 
