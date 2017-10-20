@@ -25,6 +25,21 @@
     return false;
   });
   /*toTop end*/
+
+  // Scroll Indicator Start
+  // 获取当前页面进度
+  let widthCurrent = ( $( window ).scrollTop() / ( $( document ).height() - $( window ).height() ) );
+  widthCurrent = `${( widthCurrent * 100 ).toFixed( 2 )}%`;
+  $( "#scroll-indicator" ).css( "width", widthCurrent );
+
+  $( window ).scroll( function () {
+    // 页面滚动时跟新指示器
+    widthCurrent = ( $( window ).scrollTop() / ( $( document ).height() - $( window ).height() ) );
+    widthCurrent = `${( widthCurrent * 100 ).toFixed( 2 )}%`;
+    $( "#scroll-indicator" ).css( "width", widthCurrent );
+  } );
+  // Scroll Indicator Start  
+  
   // Search
   var $searchWrap = $('#search-form-wrap'),
     isSearchAnim = false,
