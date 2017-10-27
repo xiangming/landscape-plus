@@ -38,3 +38,6 @@ duoshuo_shortname: reqianduan
 
 # Baidu share
 baidushare: true
+
+# 备案信息,符合中国国情
+beian: 备案编号
