@@ -180,4 +180,16 @@
 
     $container.removeClass('mobile-nav-on');
   });
+
+  //==================  pjax && nprogress  =======================
+
+  $(document).pjax('a', '#container', { fragment: '#container' })
+
+  $(document).on('pjax:send', function() {
+    NProgress.start();
+  })
+  $(document).on('pjax:complete', function() {
+    NProgress.done();
+  })
+
 })(jQuery);
