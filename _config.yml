@@ -36,5 +36,8 @@ fb_app_id:
 # Duoshuo
 duoshuo_shortname: reqianduan
 
+# Disqus
+# disqus_shortname:
+
 # Baidu share
 baidushare: true
